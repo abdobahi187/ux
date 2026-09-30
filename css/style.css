@@ -1149,11 +1149,16 @@ ul {
 .footer .down-footer ul li {
   margin-right: 28px;
 }
+.footer .down-footer ul li:hover a {
+  color: #f7d41c;
+}
+
 .footer .down-footer ul li a {
   color: white;
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
+  transition: 0.2s;
 }
 
 /* <!-- --------------------------------------end footer-------------------------------------------- --> */
